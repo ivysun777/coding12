@@ -1,15 +1,18 @@
-# Getting Started with Create React App
+Clone the repository
+### `git clone https://github.com/ivysun777/coding12.git>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `cd sun_qian_ui_garden`
 
-## Available Scripts
+Install the dependencies
 
-In the project directory, you can run:
+### `npm install`
 
+Start the development server
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To view the components in Storybook, open a new terminal window and run the following command
+### `npm run storybook`
+
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
