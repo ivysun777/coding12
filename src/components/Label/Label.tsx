@@ -8,7 +8,11 @@ const Label: FC<LabelProps> = (props) => {
     cursor: ${props.disabled ? "not-allowed" : ""};
   `;
 
-  return <StyledLabel data-testid="Label">{props.text || "Label"}</StyledLabel>;
+  return (
+    <StyledLabel data-testid="Label" htmlFor={props.for}>
+      {props.text || "Label"}
+    </StyledLabel>
+  );
 };
 
 export default Label;

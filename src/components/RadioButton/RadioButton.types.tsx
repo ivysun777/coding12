@@ -1,6 +1,5 @@
-export interface LabelProps {
+export interface RadioButtonProps {
   disabled?: boolean;
   text?: string;
   background?: string;
-  for?: string;
 }
