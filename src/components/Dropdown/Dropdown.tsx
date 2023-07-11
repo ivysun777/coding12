@@ -10,9 +10,7 @@ const Dropdown: FC<DropdownProps> = (props) => {
 
   return (
     <StyledSelect data-testid="Dropdown" disabled={props.disabled}>
-      {props.options?.map((option) => (
-        <option>{option}</option>
-      ))}
+      {props.options?.map((option) => <option>{option}</option>)}
     </StyledSelect>
   );
 };
