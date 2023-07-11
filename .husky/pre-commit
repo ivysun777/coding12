@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx prettier --check .
+npx eslint src --ext .js,.jsx,.ts,.tsx
+npx react-scripts test --watchAll=false
